@@ -13,6 +13,7 @@ brew install autojump
 brew install docker
 brew install docker-machine
 brew install vim --with-lua --with-clipboard
+brew install heroku-toolbelt
 
 echo "Installing brew casks..."
 brew cask install iterm2
