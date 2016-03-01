@@ -5,6 +5,7 @@ echo "Installing brew..."
 # Tools
 echo "Installing brew formulas..."
 brew install cmake
+brew install ag
 brew install htop-osx
 brew install tmux
 brew install zsh
