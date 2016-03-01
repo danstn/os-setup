@@ -15,6 +15,7 @@ brew install docker
 brew install docker-machine
 brew install vim --with-lua --with-clipboard
 brew install heroku-toolbelt
+brew install haskell-stack
 
 # Install cask
 brew install caskroom/cask/brew-cask
