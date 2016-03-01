@@ -16,6 +16,9 @@ brew install docker-machine
 brew install vim --with-lua --with-clipboard
 brew install heroku-toolbelt
 
+# Install cask
+brew install caskroom/cask/brew-cask
+
 echo "Installing brew casks..."
 brew cask install iterm2
 brew cask install google-chrome
