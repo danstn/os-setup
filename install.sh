@@ -8,6 +8,7 @@ brew install cmake
 brew install ag
 brew install htop-osx
 brew install tmux
+brew install tmux-mem-cpu-load
 brew install zsh
 brew install python3
 brew install autojump
