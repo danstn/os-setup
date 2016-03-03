@@ -1,13 +1,5 @@
-## Node setup
-
-source $HOME/.nvm/nvm.sh
-
-nvm install 5
-nvm use 5
-
-## Git setup
-
-echo "Setting up Git..."
+#!/bin/bash
+echo "---> [SETUP] Setting up git"
 
 echo "Enter your full name: "
 read fullname

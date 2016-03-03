@@ -1,5 +1,6 @@
 #!/bin/bash
-set -x
+#set -x
+echo "---> [SETUP] Setting up dotfiles"
 
 DOTFILES=$HOME/.dotfiles
 

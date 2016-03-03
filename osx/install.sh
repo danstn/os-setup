@@ -1,9 +1,9 @@
 # Requires admin
-echo "Installing brew..."
+echo "---> [INSTALL] Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Tools
-echo "Installing brew formulas..."
+echo "---> [INSTALL] Installing brew formulaes..."
 brew install cmake
 brew install ag
 brew install htop-osx
@@ -18,18 +18,10 @@ brew install vim --with-lua --with-clipboard
 brew install heroku-toolbelt
 brew install haskell-stack
 
-# Install cask
+echo "---> [INSTALL] Installing brew cask..."
 brew install caskroom/cask/brew-cask
 
-echo "Installing brew casks..."
+echo "---> [INSTALL] Installing brew cask packages..."
 brew cask install iterm2
 brew cask install google-chrome
-
-# oh-my-zsh
-echo "Installing ohmyzsh..."
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# nvm
-echo "Installing nvm..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
