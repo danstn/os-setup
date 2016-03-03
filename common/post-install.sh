@@ -1,4 +1,4 @@
 #!/bin/bash
-./setup-git.sh
-./setup-dots.sh
-./setup-node.sh
+#./common/setup-git.sh
+./common/setup-dots.sh
+./common/setup-node.sh
