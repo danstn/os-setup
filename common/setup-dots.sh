@@ -18,6 +18,10 @@ else
   echo "Fetching dots..."
   git clone git@github.com:dzotokan/dotfiles.git $DOTFILES
 
+  echo "Linking ghci..."
+  unlinkOrMove "$HOME/.ghci"
+  ln $DOTFILES/ghci $HOME/.ghci
+
   #TODO: map over a list of files
   echo "Linking zshrc..."
   unlinkOrMove "$HOME/.zshrc"
