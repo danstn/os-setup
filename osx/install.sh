@@ -13,6 +13,7 @@ brew install tmux-mem-cpu-load
 brew install zsh
 brew install python3
 brew install autojump
+brew install nginx
 brew install docker
 brew install docker-machine
 brew install vim --with-lua --with-clipboard
