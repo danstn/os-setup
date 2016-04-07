@@ -30,6 +30,10 @@ else
   echo "Linking tmux conf..."
   unlinkOrMove "$HOME/.tmux.conf"
   ln $DOTFILES/tmux.conf $HOME/.tmux.conf
+
+  echo "Linking ctags conf..."
+  unlinkOrMove "$HOME/.ctags"
+  ln $DOTFILES/ctags $HOME/.ctags
 fi
 
 

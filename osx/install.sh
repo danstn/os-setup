@@ -7,6 +7,7 @@ echo "---> [INSTALL] Installing brew formulaes..."
 brew install cmake
 brew install tree
 brew install ag
+brew install ctags
 brew install htop-osx
 brew install tmux
 brew install tmux-mem-cpu-load
@@ -19,6 +20,7 @@ brew install docker-machine
 brew install vim --with-lua --with-clipboard
 brew install heroku-toolbelt
 brew install haskell-stack
+brew install sbt
 
 echo "---> [INSTALL] Installing brew cask..."
 brew install caskroom/cask/brew-cask
