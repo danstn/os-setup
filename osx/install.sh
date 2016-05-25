@@ -21,6 +21,8 @@ brew install vim --with-lua --with-clipboard
 brew install heroku-toolbelt
 brew install haskell-stack
 brew install sbt
+brew install awscli
+brew install jq
 
 echo "---> [INSTALL] Installing brew cask..."
 brew install caskroom/cask/brew-cask
