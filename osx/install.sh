@@ -5,6 +5,7 @@ echo "---> [INSTALL] Installing brew..."
 # Tools
 echo "---> [INSTALL] Installing brew formulaes..."
 brew install cmake
+brew install wget
 brew install tree
 brew install ag
 brew install ctags
@@ -23,6 +24,8 @@ brew install haskell-stack
 brew install sbt
 brew install awscli
 brew install jq
+brew install mobile-shell
+brew install go
 
 echo "---> [INSTALL] Installing brew cask..."
 brew install caskroom/cask/brew-cask
