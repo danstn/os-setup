@@ -26,6 +26,8 @@ brew install awscli
 brew install jq
 brew install mobile-shell
 brew install go
+brew install sbcl
+brew install direnv
 
 echo "---> [INSTALL] Installing brew cask..."
 brew install caskroom/cask/brew-cask
